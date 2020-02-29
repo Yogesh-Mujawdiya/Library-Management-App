@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_Search_Book">
+
+    <fragment
+        android:id="@+id/nav_Search_Book"
+        android:name="library.management.ui.SearchBookFragment"
+        android:label="Search Book"
+        tools:layout="@layout/fragment_search_book" />
+
+    <fragment
+        android:id="@+id/nav_History"
+        android:name="library.management.ui.HistoryFragment"
+        android:label="History"
+        tools:layout="@layout/fragment_history" />
+
+    <fragment
+        android:id="@+id/nav_Book_Issue"
+        android:name="library.management.ui.BookIssueFragment"
+        android:label="Book Issue"
+        tools:layout="@layout/fragment_book_issue" />
+
+    <fragment
+        android:id="@+id/nav_Book_Return"
+        android:name="library.management.ui.BookReturnFragment"
+        android:label="Book Return"
+        tools:layout="@layout/fragment_book_return" />
+
+    <fragment
+        android:id="@+id/nav_Book_Loss"
+        android:name="library.management.ui.BookLossFragment"
+        android:label="Book Loss"
+        tools:layout="@layout/fragment_book_loss" />
+
+    <fragment
+        android:id="@+id/nav_New"
+        android:name="library.management.ui.NewFragment"
+        android:label="New"
+        tools:layout="@layout/fragment_new" />
+
+    <fragment
+        android:id="@+id/nav_New_Book"
+        android:name="library.management.ui.NewBookFragment"
+        android:label="New Book"
+        tools:layout="@layout/fragment_new_book" />
+</navigation>

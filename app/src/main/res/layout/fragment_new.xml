@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="#30FFCF"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Spinner
+        android:id="@+id/spinnerAddDataType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:entries="@array/AddData"
+        android:fontFamily="serif"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:padding="10dp"
+        />
+
+    <LinearLayout
+        android:id="@+id/Book"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:gravity="center"
+        android:background="#fff"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/editTextBookTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:fontFamily="serif"
+            android:hint="Title"/>
+
+        <EditText
+            android:id="@+id/editTextBookAuthor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:layout_margin="5dp"
+            android:hint="Author"/>
+
+
+        <EditText
+            android:id="@+id/editTextBookAccessNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:layout_margin="5dp"
+            android:hint="Access No."/>
+
+
+        <EditText
+            android:id="@+id/editTextBookCallNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:layout_margin="5dp"
+            android:hint="Call No."/>
+
+
+        <EditText
+            android:id="@+id/editTextBookPublication"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:layout_margin="5dp"
+            android:hint="Publication"/>
+
+        <EditText
+            android:id="@+id/editTextBookCost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:layout_margin="5dp"
+            android:hint="Cost"/>
+
+        <EditText
+            android:id="@+id/editTextBookEdition"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:layout_margin="5dp"
+            android:hint="Edition"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Thesis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:visibility="gone"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:gravity="center"
+        android:background="#fff"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/editTextThesisTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:fontFamily="serif"
+            android:hint="Title"/>
+
+        <EditText
+            android:id="@+id/editTextThesisScholarName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:layout_margin="5dp"
+            android:hint="Scholar Name"/>
+
+
+        <EditText
+            android:id="@+id/editTextThesisScholarId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:layout_margin="5dp"
+            android:hint="Scholar Id"/>
+
+
+        <EditText
+            android:id="@+id/editTextThesisMentorName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:layout_margin="5dp"
+            android:hint="Mentor Name"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/CD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="50dp"
+        android:visibility="gone"
+        android:layout_marginRight="50dp"
+        android:gravity="center"
+        android:background="#fff"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/editTextCDTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:fontFamily="serif"
+            android:hint="Title"/>
+
+        <EditText
+            android:id="@+id/editTextCDName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:layout_margin="5dp"
+            android:hint="Name"/>
+
+
+        <EditText
+            android:id="@+id/editTextCDAccessNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:layout_margin="5dp"
+            android:hint="Access No."/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Journal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="50dp"
+        android:visibility="gone"
+        android:layout_marginRight="50dp"
+        android:gravity="center"
+        android:background="#fff"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/editTextJournalTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:fontFamily="serif"
+            android:hint="Title"/>
+
+        <EditText
+            android:id="@+id/editTextJournalName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:layout_margin="5dp"
+            android:hint="Name"/>
+
+
+        <EditText
+            android:id="@+id/editTextJournalAccessNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:layout_margin="5dp"
+            android:hint="Access No."/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnGo"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="#0055A0"
+        android:textSize="30dp"
+        android:fontFamily="serif"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:textColor="#FFF"
+        android:text="Go"/>
+
+</LinearLayout>

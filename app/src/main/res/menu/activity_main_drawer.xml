@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Search_Book"
+            android:icon="@drawable/ic_menu_share"
+            android:title="search Book" />
+        <item
+            android:id="@+id/nav_History"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="History" />
+        <item
+            android:id="@+id/nav_New_Book"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="New Book" />
+    </group>
+
+    <item
+        android:id="@+id/nav_Admin"
+        android:title="Admin">
+        <menu>
+
+            <item
+                android:id="@+id/nav_Book_Issue"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="Book Issue"/>
+            <item
+                android:id="@+id/nav_Book_Loss"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Book Loss" />
+            <item
+                android:id="@+id/nav_Book_Return"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="Book Return" />
+            <item
+                android:id="@+id/nav_New"
+                android:icon="@drawable/ic_menu_send"
+                android:title="New" />
+        </menu>
+    </item>
+
+</menu>

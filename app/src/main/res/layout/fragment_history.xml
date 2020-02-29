@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:id="@+id/table_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/name"
+                    android:fontFamily="serif"
+                    android:textStyle="bold"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:textColor="#000"
+                    android:textAlignment="center"
+                    android:text="Title"/>
+                <TextView
+                    android:id="@+id/age"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:fontFamily="serif"
+                    android:layout_height="wrap_content"
+                    android:layout_width="80dp"
+                    android:textAlignment="center"
+                    android:text="Access\nNo."/>
+                <TextView
+                    android:textColor="#000"
+                    android:id="@+id/position"
+                    android:fontFamily="serif"
+                    android:textStyle="bold"
+                    android:layout_height="wrap_content"
+                    android:layout_width="80dp"
+                    android:textAlignment="center"
+                    android:text="Issue\nDate"/>
+                <TextView
+                    android:textColor="#000"
+                    android:id="@+id/address"
+                    android:fontFamily="serif"
+                    android:textStyle="bold"
+                    android:layout_height="wrap_content"
+                    android:layout_width="80dp"
+                    android:textAlignment="center"
+                    android:text="Return\nOn"/>
+
+        </LinearLayout>
+            <View
+                android:layout_height="3dip"
+                android:layout_width="match_parent"
+                android:background="#ff0000"/>
+        </LinearLayout>
+    </ScrollView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/HistoryRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

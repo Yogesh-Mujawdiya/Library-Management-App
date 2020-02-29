@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Library Management</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+
+
+    <string name="localhost">http://10.2.147.68/LibraryManagement</string>
+
+    <string-array name="userType">
+        <item>Student</item>
+        <item>Scholar</item>
+        <item>Staff</item>
+    </string-array>
+
+    <string-array name="Year">
+        <item>Year</item>
+        <item>1st</item>
+        <item>2nd</item>
+        <item>3nd</item>
+    </string-array>
+
+    <string-array name="SearchOption">
+        <item>Book Title</item>
+        <item>Access No.</item>
+        <item>Author Name</item>
+    </string-array>
+
+    <string-array name="Fine">
+        <item>Pay Fine</item>
+        <item>Replace With a New Book</item>
+    </string-array>
+
+    <string-array name="AddData">
+        <item>Add a Book</item>
+        <item>Add a Thesis</item>
+        <item>Add a CD</item>
+        <item>Add a Journal</item>
+    </string-array>
+
+</resources>

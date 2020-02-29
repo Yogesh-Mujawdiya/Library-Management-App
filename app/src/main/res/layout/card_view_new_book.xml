@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:cardBackgroundColor="#8DFFE4"
+        android:clickable="false">
+
+
+        <RelativeLayout
+            android:padding="10dp"
+            android:id="@+id/table_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvTitle"
+                android:fontFamily="serif"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textColor="#000"
+                android:textAlignment="center"
+                android:text="Title"/>
+
+            <TextView
+                android:id="@+id/Author"
+                android:textColor="#000"
+                android:fontFamily="serif"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_toLeftOf="@+id/tvAuthor"
+                android:textAlignment="center"
+                android:text="Author : "/>
+
+            <TextView
+                android:id="@+id/tvAuthor"
+                android:textColor="#000"
+                android:fontFamily="serif"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_alignParentRight="true"
+                android:textAlignment="center"
+                android:text="1234"/>
+
+            <TextView
+                android:id="@+id/Publication"
+                android:textColor="#000"
+                android:fontFamily="serif"
+                android:layout_below="@id/tvTitle"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_toLeftOf="@id/tvPublication"
+                android:textAlignment="center"
+                android:text="Publication : "/>
+
+            <TextView
+                android:id="@+id/tvPublication"
+                android:textColor="#000"
+                android:fontFamily="serif"
+                android:layout_below="@id/tvTitle"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textAlignment="center"
+                android:layout_alignParentRight="true"
+                android:text="1234"/>
+
+            <TextView
+                android:textColor="#000"
+                android:id="@+id/tvAccessNo"
+                android:fontFamily="serif"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_below="@+id/tvTitle"
+                android:textAlignment="center"
+                android:text="Ca/000"/>
+
+            <TextView
+                android:textColor="#000"
+                android:id="@+id/tvEdition"
+                android:fontFamily="serif"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_below="@+id/tvAccessNo"
+                android:textAlignment="center"
+                android:text="1st"/>
+
+            <TextView
+                android:textColor="#000"
+                android:id="@+id/Edition"
+                android:fontFamily="serif"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_below="@+id/tvAccessNo"
+                android:layout_toRightOf="@+id/tvEdition"
+                android:textAlignment="center"
+                android:text=" Edition"/>
+
+            <TextView
+                android:textColor="#000"
+                android:id="@+id/tvAvailability"
+                android:fontFamily="serif"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_below="@+id/tvPublication"
+                android:layout_alignParentRight="true"
+                android:textAlignment="center"
+                android:text="Availability"/>
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
